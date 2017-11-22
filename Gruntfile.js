@@ -792,7 +792,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask("default", [
     "update-packages",
-    "fetch",
     "update",
     "build",
     "config",

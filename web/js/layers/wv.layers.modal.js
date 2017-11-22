@@ -737,7 +737,7 @@ wv.layers.modal = wv.layers.modal || function(models, ui, config) {
   };
 
   var interestCssName = function(name) {
-    if (name === 'hazards and disasters') {
+    if (name === 'India') {
       return 'legacy';
     } else {
       return name;

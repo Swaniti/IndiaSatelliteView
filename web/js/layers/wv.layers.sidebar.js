@@ -194,8 +194,8 @@ wv.layers.sidebar = wv.layers.sidebar || function(models, config) {
         .attr("data-tab", "events");
       var $eventsLink = $("<a></a>")
         .attr("href", "#wv-events")
-        .addClass("tab")
-        .html("<i class='productsIcon selected icon-events' title='Events'></i> Events");
+        // .addClass("tab")
+        .html("<i class='' title='Events'></i>");
       $eventsTab.append($eventsLink);
       $tabs.append($eventsTab);
     }

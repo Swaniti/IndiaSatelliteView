@@ -85,7 +85,7 @@ wv.layers.model = wv.layers.model || function(models, config) {
   };
 
   // Takes a layer id and returns a true or false value
-  // if the layer exists in the active layer list
+  // if the layer exists in the  active layer list
   self.exists = function(layer) {
     var found = false;
     _.each(self.active, function(current) {
